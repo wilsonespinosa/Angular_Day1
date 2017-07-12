@@ -9,11 +9,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
-  
+
   title = 'my_Application';
   author = 'Wilson Espinosa';
   count = 0;
-  imgSource = './../favicon.ico';
+  imgSource = './favicon.ico';
   enabled = false;
   isEnabled(){
      this.enabled= !this.enabled;
