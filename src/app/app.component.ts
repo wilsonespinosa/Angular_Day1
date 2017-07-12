@@ -8,7 +8,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'my_WEBApplication';
+  title = 'my_Application';
   author = 'Wilson Espinosa';
   count = 0;
+  imgSource = './../favicon.ico';
+  enabled = false;
+  isEnabled(){
+    return this.enabled;
+  }
 }

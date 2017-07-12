@@ -2,5 +2,8 @@
 <h1>
     <app-my-component></app-my-component>
 </h1>
+<img [src]="imgSource">
 <button (click)="count = count + 1">Click me</button>
 <h1> Counter : {{count}} </h1>
+<button (click)="enabled = true">Enable</button>
+<input [disabled]="!isEnabled(false)" />
