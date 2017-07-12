@@ -1,12 +1,14 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<h1>
+<div style="text-align: center; font: bold; font-size: 2em; background-color:#e7293a">
     <app-my-component></app-my-component>
-</h1>
-<hr>
-<img [src]="imgSource">
-<hr>
-<button (click)="count = count + 1">Click me</button>
-<h1> Counter : {{count}} </h1>
-<hr>
-<button (click)="isEnabled()">Enable</button>
-<input [disabled]="enabled" />
+</div>
+<div style="text-align: center; font: bold; font-size: 2em; background-color:#FFFFFF">
+    <img [src]="imgSource">
+</div>
+<div style="text-align: center; font: bold; font-size: 2em; background-color:#e7293a; vertical-align: middle">
+    <button style=" background-color:gray " (click)="count=count + 1 ">Click me</button> Counter : {{count}}
+</div>
+<div style="text-align: center; font: bold; font-size: 2em; background-color:#e7293a;">
+    <button (click)="isEnabled() ">Enable</button>
+    <input [disabled]="enabled " />
+</div>

@@ -13,7 +13,7 @@ export class AppComponent {
   title = 'my_Application';
   author = 'Wilson Espinosa';
   count = 0;
-  imgSource = './favicon.ico';
+  imgSource = './assets/images/pic_angular.jpg';
   enabled = false;
   isEnabled(){
      this.enabled= !this.enabled;
