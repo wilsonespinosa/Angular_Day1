@@ -10,4 +10,5 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'my_WEBApplication';
   author = 'Wilson Espinosa';
+  count = 0;
 }
