@@ -8,6 +8,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+
+  
   title = 'my_Application';
   author = 'Wilson Espinosa';
   count = 0;
