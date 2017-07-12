@@ -14,6 +14,6 @@ export class AppComponent {
   imgSource = './../favicon.ico';
   enabled = false;
   isEnabled(){
-    return this.enabled;
+     this.enabled= !this.enabled;
   }
 }
